@@ -1,0 +1,23 @@
+/* Estilos para el campo de entrada de texto */
+input {
+  width: 500px;
+  height: 40px;
+  font-size: 18px;
+}
+
+/* Estilos para la lista de productos */
+#lista-de-productos {
+  display: flex;
+  flex-wrap: wrap; /* Permitir que los productos se envuelvan en filas */
+  justify-content: flex-start; /* Alinear los productos a la izquierda */
+}
+
+/* Estilos para cada producto individual */
+.producto {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  }
